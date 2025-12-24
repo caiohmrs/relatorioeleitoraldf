@@ -12,10 +12,7 @@ st.set_page_config(page_title="Relatórios Eleitorais", layout="wide")
 @st.cache_data
 def carregar_dados():
     arquivos = {
-        'Distrital': 'localvotacao_distrital.csv',
-        'Federal': 'localvotacao_federal.csv',
-        'Presidente': 'localvotacao_presidente.csv',
-        'Senador': 'localvotacao_senador.csv',
+
         'Governador': 'localvotacao_governador.csv'
         
     }
